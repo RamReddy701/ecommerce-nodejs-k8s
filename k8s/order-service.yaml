@@ -15,8 +15,7 @@ spec:
     spec:
       containers:
         - name: order-service
-          # Replace with your Docker Hub/GitHub registry username
-          image: yourusername/order-service:latest 
+          image: Ramreddy/order-service:V1
           ports:
             - containerPort: 8080
           envFrom:
