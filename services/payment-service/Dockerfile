@@ -4,7 +4,9 @@ ENV NODE_ENV=production
 WORKDIR /usr/src/app
 
 COPY package*.json ./
-RUN npm ci --only=production
+
+# Clean command relying on NODE_ENV=production
+RUN npm install --omit=dev
 
 COPY . .
 
