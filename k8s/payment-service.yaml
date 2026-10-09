@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: payment-service
-          image: Ramreddy/payment-service:V1
+          image: ramreddy701/payment-service:v1
           ports:
             - containerPort: 8081
           envFrom:
