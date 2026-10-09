@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: Ramreddy/order-service:V1
+          image: ramreddy701/order-service:V1
           ports:
             - containerPort: 8080
           envFrom:
